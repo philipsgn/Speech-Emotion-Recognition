@@ -50,13 +50,7 @@ Thêm chức năng realtime (microphone): để ứng dụng nghe giọng nói v
 
 Tham khảo & Tài liệu (References)
 Mô hình Speech Emotion Recognition tương tự: các project open-source khác dùng MFCC, LSTM, CNN. 
-GitHub
-+2
-GitHub
-+2
 
 Các kỹ thuật trích xuất đặc trưng âm thanh (audio features): MFCC, Mel-spectrogram, sử dụng thư viện librosa. 
-GitHub
-+1
 
 Công cụ trích xuất audio features mạnh mẽ như openSMILE
