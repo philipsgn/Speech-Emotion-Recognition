@@ -10,15 +10,13 @@ Một hệ thống **Speech Emotion Recognition (SER)**, dùng để phân loạ
 
 ## Cấu trúc dự án (Project Structure)
 
-├── data_preprocessing/ # Mã để xử lý dữ liệu (load audio, xử lý, chia train/test)
+├── data_preprocessing/ # Mã để xử lý dữ liệu , Trích xuất đặc trưng 
 
-├── model_training/ # Mã huấn luyện mô hình
+├── model_training/ # Mã huấn luyện ,Đánh giá Trực quan mô hình
 
 ├── streamlit_app/ # Ứng dụng Streamlit để inference cảm xúc
 
-├── notebooks/ # (nếu có) các notebook phân tích, visual feature, thử nghiệm mô hình
-
-└── README.md # File hướng dẫn này
+└── README.md # 
 
 # Sử dụng (Usage)
 1. Tiền xử lý dữ liệu (Preprocessing)
