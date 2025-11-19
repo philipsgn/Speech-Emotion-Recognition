@@ -20,9 +20,6 @@ Một hệ thống **Speech Emotion Recognition (SER)**, dùng để phân loạ
 
 └── README.md # File hướng dẫn này
 
-bash
-Copy code
-
 # Sử dụng (Usage)
 1. Tiền xử lý dữ liệu (Preprocessing)
 Chạy mã trong thư mục data_preprocessing/ để load các file âm thanh, xử lý (ví dụ: chuẩn hóa, cắt đoạn), và trích xuất các đặc trưng (features) như MFCC, Mel-spectrogram
@@ -37,13 +34,9 @@ Lưu mô hình đã huấn luyện (checkpoint) để dùng sau khi deploy.
 3. Ứng dụng Streamlit (Inference)
 Vào streamlit_app/ và chạy:
 
-bash
-Copy code
 streamlit run app.py
 Ứng dụng web sẽ chạy local, bạn có thể upload file âm thanh và xem dự đoán cảm xúc.
 
-Kết quả (Results)
-Hiển thị các metric như: accuracy, confusion matrix, báo cáo classification (precision, recall, F1) (nếu đã tính).
 
 # Phần mở rộng (Future Work / Roadmap)
 
