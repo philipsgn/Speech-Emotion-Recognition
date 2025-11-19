@@ -18,8 +18,6 @@ Một hệ thống **Speech Emotion Recognition (SER)**, dùng để phân loạ
 
 ├── notebooks/ # (nếu có) các notebook phân tích, visual feature, thử nghiệm mô hình
 
-├── requirements.txt # Các thư viện cần cài đặt
-
 └── README.md # File hướng dẫn này
 
 bash
